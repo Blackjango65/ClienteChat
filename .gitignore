@@ -6,6 +6,10 @@
 *.war
 *.ear
 
+# Allow tracking libraries inside the repo `lib` folder
+!lib/
+!lib/**
+
 # NetBeans build folders
 /build/
 /dist/
